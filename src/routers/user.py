@@ -1,5 +1,4 @@
 from fastapi import APIRouter, HTTPException, status
-
 from src.schemas.user import CreateUser, UserInfo
 from src.fake_db import db
 
